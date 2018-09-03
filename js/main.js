@@ -14,7 +14,7 @@
     }
 
 
-    btn.addEventListener('click', function(){
+    btn.addEventListener(EVENTNAME_TOUCHSTART, function(){
       var results = [
           "大吉",
           "吉",
