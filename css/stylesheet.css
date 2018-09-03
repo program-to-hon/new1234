@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 body {
-  background: #efefef
+  background: #efefef;
 }
 
 
-header{
+.header{
   background-color:  #26d0c9;
   color: #fff;
   height: 60px;
