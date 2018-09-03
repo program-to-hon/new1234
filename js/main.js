@@ -13,19 +13,16 @@
     EVENTNAME_TOUCHEND = 'mouseup';
     }
 
-    
 
     btn.addEventListener('click', function(){
       this.textContent = '大吉' ;
     });
 
-           
-btn.addEventListener(EVENTNAME_TOUCHSTART, function(){
+    btn.addEventListener(EVENTNAME_TOUCHSTART, function(){
       this.className = 'pushed' ;
     });
 
     btn.addEventListener(EVENTNAME_TOUCHEND, function(){
       this.className = '' ;
     });
-
 })();
